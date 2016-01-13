@@ -1,0 +1,59 @@
+.main-view {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+.hi {
+    margin-bottom: 50px;
+}
+
+.main-view h1 {
+    font-size: 290%;
+    margin-top: 15vh;
+}
+
+.main-view h1 span {
+    font-weight: bold;
+}
+
+.main-view > div > span {
+    display: inline-block;
+    margin-top: 0;
+    font-size: 195%;
+}
+
+@media (max-width: 768px) { .main-view h1 { font-size: 250%; }
+    .main-view > div > span { font-size: 170%; } }
+
+.mail {
+    width: 90%;
+    max-width: 358px;
+    margin: 0 auto;
+    font-size: 114%;
+}
+
+// TypeJS Blinking Cursor
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
