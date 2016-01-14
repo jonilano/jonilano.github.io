@@ -44,33 +44,30 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="https://cdn.rawgit.com/mattboldt/typed.js/master/js/typed.js"></script>
 	<script>
-	$(document).ready(function() {
-		$(".noscript").hide();
+	$(function() {
 
+		$(".noscript").hide();
 		$els = $(".mail, .links, .signature");
 		$els.hide();
-		
 		$("h1").addClass("animated fadeIn");
 
-		$(function(){
-			$(".first-line").typed( {
-				strings: ["I'm a self-taught full stack"],
-		        typeSpeed: 0,
-        		startDelay: 2000,
-          		callback: function() {
-          			$(".typed-cursor").remove();
-          			$(".first-line").css("display", "block");
-		    		$(".second-line").typed({
-						strings: ["web developer.^2000 :)"],
-				        typeSpeed: 0,
-		        		startDelay: 0,
-		        		callback: function() {
-		        			$(".typed-cursor").remove();
-		    					$els.show().addClass("animated fadeIn");
-		        		}
-		    		});
-        		}
-    		});
+		$(".first-line").typed( {
+			strings: ["I'm a self-taught full stack"],
+			typeSpeed: 0,
+			startDelay: 2000,
+			callback: function() {
+				$(".typed-cursor").remove();
+				$(".first-line").css("display", "block");
+				$(".second-line").typed({
+					strings: ["web developer.^2000 :)"],
+					typeSpeed: 0,
+					startDelay: 0,
+					callback: function() {
+						$(".typed-cursor").remove();
+						$els.show().addClass("animated fadeIn");
+					}
+				});
+			}
 		});
 
 	});
