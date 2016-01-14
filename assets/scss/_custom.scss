@@ -14,7 +14,7 @@
 }
 
 .main-view h1 span {
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .main-view > div > span {
@@ -23,9 +23,6 @@
     font-size: 195%;
 }
 
-@media (max-width: 768px) { .main-view h1 { font-size: 250%; }
-    .main-view > div > span { font-size: 170%; } }
-
 .mail {
     width: 90%;
     max-width: 358px;
@@ -33,8 +30,7 @@
     font-size: 114%;
 }
 
-// TypeJS Blinking Cursor
-
+/* typejs cursor */
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
@@ -57,3 +53,6 @@
     100% { opacity:1; }
 }
 
+/* tablet & mobile */
+@media (max-width: 768px) { .main-view h1 { font-size: 250%; }
+    .main-view > div > span { font-size: 170%; } }
