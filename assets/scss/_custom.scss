@@ -1,8 +1,8 @@
-.main-view {
+.main {
     height: 100%;
     width: 100%;
     text-align: center;
-    padding: 5vh 0;
+    padding: 40px 0;
 }
 
 .avatar {
@@ -17,22 +17,22 @@
 }
 
 .hi {
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;    
 }
 
-.main-view h1 {
+.hi h1 {
     font-size: 200%;
-    margin-top: 3vh;
 }
 
-.main-view h1 span {
+.hi h1 > span {
     font-weight: 600;
 }
 
-.main-view > div > span {
+.hi > span {
     display: inline-block;
     margin-top: 0;
-    font-size: 150%;
+    font-size: 140%;
 }
 
 .mail {
@@ -74,7 +74,3 @@
   color: #000;
   background: #eee;
 }
-
-/* tablet & mobile */
-@media (max-width: 768px) { .main-view h1 { font-size: 250%; }
-    .main-view > div > span { font-size: 170%; } }
