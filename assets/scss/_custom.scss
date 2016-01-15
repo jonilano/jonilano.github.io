@@ -1,16 +1,28 @@
 .main-view {
-	height: 100%;
-	width: 100%;
-	text-align: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 5vh 0;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.avatar img {
+    border-radius: 100%;
+    max-width: 100%;
 }
 
 .hi {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .main-view h1 {
-    font-size: 290%;
-    margin-top: 15vh;
+    font-size: 200%;
+    margin-top: 3vh;
 }
 
 .main-view h1 span {
@@ -20,7 +32,7 @@
 .main-view > div > span {
     display: inline-block;
     margin-top: 0;
-    font-size: 195%;
+    font-size: 150%;
 }
 
 .mail {
@@ -51,6 +63,16 @@
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+}
+
+::-moz-selection {
+  color: #000;
+  background: #eee;
+}
+
+::selection {
+  color: #000;
+  background: #eee;
 }
 
 /* tablet & mobile */
