@@ -11,6 +11,9 @@
 </head>
 <body>
 	<div class="main-view">
+		<div class="avatar">
+			<img class="avatar-image" src="https://avatars2.githubusercontent.com/u/6225434?v=3&s=460" />
+		</div>
 		<div class="hi">
 			<h1>Hi, I'm <span>Jonathan.</span></h1>
 			<span class="noscript">I'm a self-taught full stack<br>web developer. :)</span>
@@ -49,7 +52,7 @@
 		$(".noscript").hide();
 		$els = $(".mail, .links, .signature");
 		$els.hide();
-		$("h1").addClass("animated fadeIn");
+		$(".avatar, h1").addClass("animated fadeIn");
 
 		$(".first-line").typed( {
 			strings: ["I'm a self-taught full stack"],
