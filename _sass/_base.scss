@@ -5,7 +5,7 @@ body { cursor: default; font-family: $base-font-family; font-weight: 300; backgr
 
 a { color: #222; text-decoration: none; border-bottom: solid 1px #eee; transition: color 250ms linear; }
 
-a:hover { color: $link-color; border-bottom: solid 1px $link-border-color; transition: color 100ms linear; }
+a:hover { color: $link-hover-color; border-bottom: solid 1px $link-border-color; transition: color 100ms linear; }
 
 ul, ol, p { margin: 1.5em 0; }
 
