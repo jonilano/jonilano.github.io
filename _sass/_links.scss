@@ -1,11 +1,9 @@
 /* links */
 .links { margin-top: 60px; margin-left: 0px; }
 
-.links a { border: 0; margin-right: 20px; display: inline-block; width: 48px; height: 48px; line-height: 48px; font-size: 32px; text-align: center; }
+.links a { color: $link-color; border: 0; margin-right: 20px; display: inline-block; width: 48px; height: 48px; line-height: 48px; font-size: 32px; text-align: center; transition: transform 250ms ease, color 250ms linear; transform: scale(0.7);}
 
-.links i { color: $link-color; transition: transform 250ms ease, color 250ms linear; transform: scale(0.7); }
-
-.links a:hover i { color: $link-hover-color; transition: transform 100ms ease; transform: scale(1); }
+.links a:hover { color: $link-hover-color; transition: transform 100ms ease; transform: scale(1); }
 
 .links a:last-child { margin-right: 0;}
 
