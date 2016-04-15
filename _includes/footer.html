@@ -5,22 +5,13 @@
     $els = $(".mail, .links, .signature");
     $els.hide();
 
-    $(".first-line").typed( {
-      strings: ["{{ site.shortbio.firstline }}"],
+    $(".bio").typed({
+      strings: ["{{ site.author.bio.line1 }}<br>{{ site.author.bio.line2 }}^1000 :)"],
       typeSpeed: 0,
       startDelay: 1000,
       callback: function() {
         $(".typed-cursor").remove();
-        $(".first-line").css("display", "block");
-        $(".second-line").typed({
-          strings: ["{{ site.shortbio.secondline }}^1000 :)"],
-          typeSpeed: 0,
-          startDelay: 0,
-          callback: function() {
-            $(".typed-cursor").remove();
-            $els.show().addClass("animated fadeIn");
-          }
-        });
+        $els.show().addClass("animated fadeIn");
       }
     });
   </script>

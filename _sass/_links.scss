@@ -1,28 +1,9 @@
 /* links */
-.links { margin-top: 60px; margin-left: 0px; }
-
-.links a { color: $link-color; border: 0; margin-right: 20px; display: inline-block; width: 48px; height: 48px; line-height: 48px; font-size: 32px; text-align: center; transition: transform 250ms ease, color 250ms linear; transform: scale(0.7);}
-
+.links { text-align: center; margin-top: 20px; margin-left: 0px; }
+.links a { color: $link-color; border: 0; margin-right: 0px; display: inline-block; width: 48px; height: 48px; line-height: 48px; font-size: 32px; text-align: center; transition: transform 250ms ease, color 250ms linear; transform: scale(0.7);}
 .links a:hover { color: $link-hover-color; transition: transform 100ms ease; transform: scale(1); }
-
 .links a:last-child { margin-right: 0;}
-
 .signature { color: #ddd; margin-top: 0.5em; margin-left: -30px; font-size: 1.5em; }
-
-/* responsive */
+li > strong:first-child { text-transform: uppercase; font-size: 0.7em; font-weight: bold; margin-right: 10px; }
 body, .content, .links, .links a, .signature, ul, ol, p { transition: all 250ms ease; }
 
-/* tablet */
-@media (max-width: 768px) { body { font-size: 16px; line-height: 1.6; }
-  .links { text-align: center; margin-top: 40px; }
-  .links a { margin-right: 0; }
-  .signature { text-align: center; }
-  ul, ol, p { margin: 1.35em 0; } }
-/* mobile */
-@media (max-width: 468px) { body { font-size: 15px; line-height: 1.6; color: #222; }
-  a { color: #111; }
-  .links { text-align: center; margin-top: 20px; }
-  .links a { margin-right: 0; }
-  ul, ol, p { margin: 1.25em 0; } }
-/* wot m8 */
-li > strong:first-child { text-transform: uppercase; font-size: 0.7em; font-weight: bold; margin-right: 10px; }

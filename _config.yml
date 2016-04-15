@@ -17,11 +17,8 @@ author:
   twitter:        https://twitter.com/jonilano
   github:         https://github.com/jonilano
   codepen:        http://codepen.io/jonilano
-
-
-shortbio:
-  firstline:      I'm a self-taught full stack
-  secondline:     web developer.
-
+  bio:
+    line1:        I'm a self-taught full stack
+    line2:        web developer.
 
 exclude:          [CNAME, Gemfile, Gemfile.lock, Makefile, README.md, vendor]
