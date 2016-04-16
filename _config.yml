@@ -4,14 +4,12 @@ markdown: kramdown
 # Setup
 baseurl: "" # the subpath of your site, e.g. /blog/
 
-title:            Jonathan Ilano
 tagline:          Full Stack Web Developer
 description:      Personal site of web developer Jonathan Ilano.
 url:              jonathanilano.com
 
 author:
-  name:           Jonathan
-  fullname:       Jonathan Ilano
+  name:           Jonathan Ilano
   email:          hi@jonathanilano.com
   avatar:         https://avatars2.githubusercontent.com/u/6225434?v=3&s=460
   twitter:        https://twitter.com/jonilano
