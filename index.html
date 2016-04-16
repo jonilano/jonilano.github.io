@@ -8,7 +8,7 @@ layout: landing
   </div>
   <div class="hi animated fadeIn">
     <h1>Hi, I'm <span>{{ site.author.name }}.</span></h1>
-    <span class="noscript">{{ site.author.bio.line1 }}<br>{{ site.author.bio.line2 }} :)</span>
+    <span class="noscript">{{ site.author.bio | slice: 0, 28 }}<br>{{ site.author.bio | slice: 29, 42 }} :)</span>
     <span class="bio"></span>
   </div>
   <div class="mail">

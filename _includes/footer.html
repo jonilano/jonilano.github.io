@@ -2,11 +2,12 @@
   <script src="https://cdn.rawgit.com/mattboldt/typed.js/master/js/typed.js"></script>
   <script>
     $(".noscript").hide();
-    $els = $(".mail, .links, .signature");
+    var $els = $(".mail, .links, .signature");
+    var bio = "{{ site.author.bio }}";
     $els.hide();
 
     $(".bio").typed({
-      strings: ["{{ site.author.bio.line1 }}<br>{{ site.author.bio.line2 }}^1000 :)"],
+      strings: [ bio.slice(0, 28) + "<br>" + bio.slice(29) + "^1000 :)"],
       typeSpeed: 0,
       startDelay: 1000,
       callback: function() {
