@@ -4,7 +4,7 @@ markdown: kramdown
 # Setup
 baseurl: "" # the subpath of your site, e.g. /blog/
 
-tagline:          Full Stack Web Developer
+title:            Jonathan Ilano &mdash; Full Stack Web Developer
 description:      Personal site of web developer Jonathan Ilano.
 url:              jonathanilano.com
 
