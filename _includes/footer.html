@@ -1,18 +1,18 @@
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="https://cdn.rawgit.com/mattboldt/typed.js/master/js/typed.js"></script>
-  <script>
-    $(".noscript").hide();
-    var $els = $(".mail, .links, .signature");
-    var bio = "{{ site.author.bio }}";
-    $els.hide();
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://cdn.rawgit.com/mattboldt/typed.js/master/js/typed.js"></script>
+<script>
+  $(".noscript").hide();
+  var $els = $(".mail, .links, .signature");
+  var bio = "{{ site.author.bio }}";
+  $els.hide();
 
-    $(".bio").typed({
-      strings: [ bio.slice(0, 28) + "<br>" + bio.slice(29) + "^1000 :)"],
-      typeSpeed: 0,
-      startDelay: 1000,
-      callback: function() {
-        $(".typed-cursor").remove();
-        $els.show().addClass("animated fadeIn");
-      }
-    });
-  </script>
+  $(".bio").typed({
+    strings: [ bio.slice(0, 28) + "<br>" + bio.slice(29) + "^1000 :)"],
+    typeSpeed: 0,
+    startDelay: 1000,
+    callback: function() {
+      $(".typed-cursor").remove();
+      $els.show().addClass("animated fadeIn");
+    }
+  });
+</script>
