@@ -17,4 +17,7 @@ author:
   codepen:        http://codepen.io/jonilano
   bio:            I'm a self-taught full stack web developer.
 
+analytics:
+  id:             "UA-79384307-1"
+
 exclude:          [CNAME, Gemfile, Gemfile.lock, Makefile, README.md, vendor]
