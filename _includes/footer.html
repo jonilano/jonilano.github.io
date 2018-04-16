@@ -5,11 +5,12 @@
     var bio = "{{ site.author.bio }}";
 
     $(".typed").typed({
-      strings: [ bio.slice(0, 28) + "<br>" + bio.slice(29) + "^1000 :)"],
+      strings: [ bio + "^1000 "],
       typeSpeed: 0,
       startDelay: 1000,
       callback: function() {
         $(".typed-cursor").remove();
+        $(".typed").append("😉");
         var $els = $(".mail, .links, .signature");
         $els.show();
       }
