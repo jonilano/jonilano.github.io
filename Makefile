@@ -1,7 +1,7 @@
-run:
+serve:
 	bundle exec jekyll serve --watch 
 
-all:
+build:
 	bundle exec jekyll build
 
 install:
@@ -11,5 +11,5 @@ update:
 	bundle update
 
 clean:
-	-rm -rf _site
+	rm -rf _site
 
